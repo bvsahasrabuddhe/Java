@@ -10,7 +10,7 @@ public class Main {
 //            String name = "Bhalchandra";
 //            System.out.println(name);
 
-            // int, float(end of this f is nessary), boolean
+        // int, float(end of this f is nessary), boolean
 //            int a = 19, c = 15 ;
 //            float b = 19.5F;
 //            boolean isBoy = true;
@@ -89,7 +89,7 @@ public class Main {
 //            System.out.println(4 + (8 - 4) * Math.random());      // gives random value
 //            System.out.println(4 + (8 - 4) * Math.random());      // gives random value
 
-              // If then statements
+        // If then statements
 //              Scanner scan = new Scanner(System.in);
 //              System.out.println("Enter day");
 //              int day = scan.nextInt();
@@ -118,16 +118,81 @@ public class Main {
 //                              default:
 //                              System.out.println("Invalid number day");
 
-                    // Java Arrays
+        // Java Arrays
 //                    int [] [] matrix = {{1,2,3}, {4,5,6}} ;
 //                    System.out.println(matrix[1][0]);
-                    int i = 0 ;
-                    while(i<10){
+//                    int [] marks = {1,2,3,4};
+//                    marks[2] = 19;
+//                    System.out.println(marks[2]);
 
-                        System.out.println(i);   // i is integer hence no require to write in double cots
-                        i += 1 ;
+//                      int [] marks = {1,2,3,4};
+//                     // marks[2] = 19;
+//                      for(int i= 0; i<marks.length;i++ ){
+//                          System.out.println(marks[i]);
+//                      }
+//                      System.out.println("This is for each loop");
+//                      for(int value:marks){
+//                          System.out.println(marks[value]);
+//                      }
+
+//                    String [] grade = {"A", "B", "C"};  //  string must be in double cots
+//                    grade[2] = "D";
+//                    System.out.println(grade[2]);
+
+        // while loop
+
+//                    while(i<10){
+//
+//                        System.out.println(i);   // i is integer hence no require to write in double cots
+//                        i += 1 ;
+//                    }
+
+                    // do while
+
+//                    int j = 0 ;
+//                    do  {
+//                    System.out.println(j);
+//                    j += 1 ;
+//
+//                    } while(j<10);
+
+                    // for loop
+//                    for(int i= 0;i<10;i++) {
+//
+//                        if (i == 2) {   // i write only single = thats why it is showing error
+//                                       //java: incompatible types: int cannot be converted to boolean
+//                            break;     //  as 2 comes it will break and stop program.
+//                        } else {
+//                            System.out.println(i);
+//                        }
+//                    }
+
+//                    for(int i= 0;i<10;i++) {
+//
+//                        if (i == 2) {
+//
+//                            continue;     //  skip 2 and next values are to be printed
+//                        } else {
+//                            System.out.println(i);
+//                        }
+//                    }
+
+                    // try - catch
+
+                    String [] cars = {"Innova", "Swift Desire", "BMW", "Jeeto"};
+
+                    try {
+                        System.out.println(cars[3]);
                     }
+                    catch (Exception e){
+                        System.out.println(e);
+                    }
+                    System.out.println("Welcome");
 
 
-    }
+
+
+
+                    //******************
+    }               // this curly bracket was deleted by me
 }
