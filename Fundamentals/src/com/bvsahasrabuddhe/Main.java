@@ -179,15 +179,27 @@ public class Main {
 
                     // try - catch
 
-                    String [] cars = {"Innova", "Swift Desire", "BMW", "Jeeto"};
+//                    String [] cars = {"Innova", "Swift Desire", "BMW", "Jeeto"};
+//
+//                    try {
+//                        System.out.println(cars[3]);
+//                    }
+//                    catch (Exception e){
+//                        System.out.println(e);
+//                    }
+//                    System.out.println("Welcome");
 
-                    try {
-                        System.out.println(cars[3]);
-                    }
-                    catch (Exception e){
-                        System.out.println(e);
-                    }
-                    System.out.println("Welcome");
+                    // Calulator in java
+
+                    int number1, number2 ;
+                    Scanner scan = new Scanner(System.in);
+                    System.out.println("Enter First number");
+                    number1 = scan.nextInt();
+                    System.out.println("Enter Second number");
+                    number2 = scan.nextInt();
+                    System.out.println("You Entered numbers");
+                    System.out.println("You Entered numbers");
+                    System.out.println("You Entered numbers");
 
 
 
