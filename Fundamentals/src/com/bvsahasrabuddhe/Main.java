@@ -1,21 +1,23 @@
 package com.bvsahasrabuddhe;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-            System.out.println("Hello World");
-            // String
-            String name = "Bhalchandra";
-            System.out.println(name);
+//            System.out.println("Hello World");
+//
+//            String name = "Bhalchandra";
+//            System.out.println(name);
 
             // int, float(end of this f is nessary), boolean
-            int a = 19, c = 15 ;
-            float b = 19.5F;
-            boolean isBoy = true;
-
-            System.out.println(a);
-            System.out.println(b);
-            System.out.println(isBoy);
+//            int a = 19, c = 15 ;
+//            float b = 19.5F;
+//            boolean isBoy = true;
+//
+//            System.out.println(a);
+//            System.out.println(b);
+//            System.out.println(isBoy);
 
             /* Rules for naming varialbles
                 Should start with letters, $, _
@@ -32,16 +34,100 @@ public class Main {
                 2. Non-Premitive or reference data types
               */
 
-            byte bt = -19;    // in between -128 to 127
-            System.out.println(bt);
-            double Db = 79.5555d;    // end of value write d
-            System.out.println(Db);
-            char grade = 'A';
-            System.out.println("Char " + grade);
+//            byte bt = -19;    // in between -128 to 127
+//            System.out.println(bt);
+//            double Db = 79.5555d;    // end of value write d
+//            System.out.println(Db);
+//            char grade = 'A';
+//            System.out.println("Char " + grade);
+//
+//                /* Operators in Java
+//                Operand, operator, operand = Result
+//                1        +         1     =   2
+//                */
+//            int num1 = 79, num2 = 77;
+//            System.out.println("Addition of num1 and num2 is");
+//            System.out.println(num1+num2);
+//            System.out.println("Subtraction of num1 and num2 is");
+//            System.out.println(num1-num2);
+//            System.out.println("Multiplication of num1 and num2 is");
+//            System.out.println(num1*num2);
+//            System.out.println("Division of num1 and num2 is");
+//            System.out.println(num1/num2);
+//            System.out.println("Mod of num1 and num2 is");
+//            System.out.println(num1%num2);
 
-                /* Operators in Java
-                Operand, operator, operand = Result
-                1        +         1     =   2
-                */
+//            // Tanking user input in Java
+//
+//            Scanner scan = new Scanner(System.in);
+//            System.out.println("Enter input");
+//            String input = scan.nextLine();   // Takes full line
+//            System.out.println(input);
+//            String input1 = scan.next();   // Takes only first word up to white space
+//            System.out.println(input1);
+//
+//            String firstname = "Bhalchandra";
+//            String lastname = "Sahasrabuddhe";
+//            System.out.println(firstname.length());   // gives length of string
+//            System.out.println(firstname.toLowerCase());   // gives lower string
+//            System.out.println(firstname.toUpperCase());   // gives upper string
+//            System.out.println(firstname + " Vasudeo " + lastname);
+//            System.out.println(firstname + " \"Vasudeo\" " + lastname);   // escape sequence character
+//            System.out.println( " \" " + " \t " + " \n ");   // escape sequence ", tab, next line
+//            System.out.println(firstname.contains("Bhal"));   // finds it contains or not i.e t or f
+//            System.out.println(firstname.charAt(5));   // gives fifth letter
+//            System.out.println(firstname.endsWith("dra"));   // check true or flase
+//            System.out.println(firstname.indexOf("dra"));   // gives position letter
+
+//            int n1 = 8, n2 = 19;
+//            System.out.println(Math.max(n1, n2));   // gives maximum number
+//            System.out.println(Math.min(n1, n2));   // gives minimum number
+//            System.out.println(Math.sqrt(25));      // gives square root
+//            System.out.println(Math.abs(-25));      // gives absolute value
+//            System.out.println(Math.random());      // gives random value
+//            System.out.println(4 + (8 - 4) * Math.random());      // gives random value
+//            System.out.println(4 + (8 - 4) * Math.random());      // gives random value
+//            System.out.println(4 + (8 - 4) * Math.random());      // gives random value
+
+              // If then statements
+//              Scanner scan = new Scanner(System.in);
+//              System.out.println("Enter day");
+//              int day = scan.nextInt();
+//              switch(day){
+//                      case 1:
+//                              System.out.println("Sunday");
+//                              break;
+//                      case 2:
+//                              System.out.println("Monday");
+//                              break;
+//                      case 3:
+//                              System.out.println("Tuesday");
+//                              break;
+//                      case 4:
+//                              System.out.println("Wednesday");
+//                              break;
+//                      case 5:
+//                              System.out.println("Thursday");
+//                              break;
+//                      case 6:
+//                              System.out.println("Friday");
+//                              break;
+//                      case 7:
+//                              System.out.println("Saturday");
+//                              break;
+//                              default:
+//                              System.out.println("Invalid number day");
+
+                    // Java Arrays
+//                    int [] [] matrix = {{1,2,3}, {4,5,6}} ;
+//                    System.out.println(matrix[1][0]);
+                    int i = 0 ;
+                    while(i<10){
+
+                        System.out.println(i);   // i is integer hence no require to write in double cots
+                        i += 1 ;
+                    }
+
+
     }
 }
