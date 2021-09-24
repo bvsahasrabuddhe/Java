@@ -198,10 +198,34 @@ public class Main {
                     System.out.println("Enter Second number");
                     number2 = scan.nextInt();
                     System.out.println("You Entered numbers");
-                    System.out.println("You Entered numbers");
-                    System.out.println("You Entered numbers");
+                    System.out.println(number1);
+                    System.out.println(number2);
+
+                    String Prompt = " 1 for  Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division ";
+                    System.out.println(Prompt);
+                    System.out.println("Enter you choice from above");
 
 
+                    int input = scan.nextInt();
+                    switch(input) {
+                        case 1:
+                            System.out.println("Addition of number1 and number2 : " + number1 + number2);
+                            break;
+                        case 2:
+                            System.out.println("Subtraction of number1 and number2 : ");
+                            System.out.println(number1 - number2);
+                            break;
+                        case 3:
+                            System.out.println("Multiplication of number1 and number2 : " + number1 * number2);
+                            break;
+                        case 4:
+                            System.out.println("Division of number1 and number2 : " + number1 / number2);
+                            break;
+
+                        default:
+                            System.out.println("Invalid numbers");
+
+                    }
 
 
 
