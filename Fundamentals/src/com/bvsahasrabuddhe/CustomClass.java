@@ -4,6 +4,7 @@ class Employee{
     String name;
     int salary;
 
+
     public void printDetails() {
         System.out.println("My id is " + id);
         System.out.println("my name is "+ name);
