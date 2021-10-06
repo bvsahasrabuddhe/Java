@@ -14,7 +14,6 @@ class Calculate {
         double c1 = obj.multiply(5.1, 4.2);
         System.out.println(c);
         System.out.println(c1);
-
     }
 
 }
