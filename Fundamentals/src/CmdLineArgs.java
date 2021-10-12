@@ -7,6 +7,8 @@ class CmdLineAgrs {
 
         /*
         Command line arguments
+        D:\Learning\Java>javac CmdLineAgrs.java
+
         D:\Learning\Java>java CmdLineAgrs Bharat Bhalchandra Pranit
         Hello World
         Bharat
