@@ -291,5 +291,234 @@ public class Pattern {
             System.out.println();
         }
 
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 14 : Printing  ");
+             /*
+             Pattern 14
+             -----*
+             ----* *
+             ---*   *
+             --*     *
+             -**********
+             */
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=5-i+1; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 2*i-1; j++) {
+
+                if(i==1 || i==5 ||  j==1 || j==2*i-1){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");}
+            }
+            System.out.println();
+        }
+
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 15 : Printing  ");
+             /*
+             Pattern 15
+             -----*
+             ----* *
+             ---*   *
+             --*     *
+             -**********
+             */
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=i; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 11-(2*i); j++) {
+
+                if(i==1 || i==5 ||  j==1 || j==11-(2*i)){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");}
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 16 : Printing  ");
+             /*
+             Pattern 16
+             -----*
+             ----***
+             ---******
+             --********
+             -**********
+             -**********
+             -**********
+             -**********
+             */
+
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=5-i+1; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 2*i-1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=11; k++){
+                System.out.print("*");
+            }
+
+             System.out.println();
+        }
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 17: Printing  ");
+             /*
+             Pattern 17
+             -----*
+             ----***
+             ---******
+             --********
+             -**********
+             --********
+             ---******
+             ----***
+             -----*
+             */
+
+        for (int i = 1; i <= 4; i++) {
+
+            for(int k=1; k<=5-i+1; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 2*i-1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=i; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 11-(2*i); j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 18: Printing  ");
+             /*
+             Pattern 18
+             -----*
+             ----* *
+             ---*    *
+             --*      *
+             -*        *
+             --*      *
+             ---*    *
+             ----*  *
+             -----*
+             */
+
+        for (int i = 1; i <= 4; i++) {
+
+            for(int k=1; k<=5-i+1; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 2*i-1; j++) {
+                if(  j==1 || j==2*i-1){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");}
+
+
+            }
+            System.out.println();
+        }
+
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=i; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 11-(2*i); j++) {
+                if( j==1 || j==11-(2*i)){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");}
+            }
+            System.out.println();
+        }
+
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 19 : Printing  ");
+             /*
+             Pattern 19
+             -----*
+             ----***
+             ---******
+             --********
+             -**********
+             -**********
+             -**********
+             -**********
+             */
+
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=5-i+1; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 2*i-1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=4; k++){
+                System.out.print("*");
+            }
+
+            for(int j=1; j<=3; j++){
+                System.out.print(" ");
+            }
+
+            for(int l=1; l<=4; l++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
         }  // main
     }
