@@ -167,7 +167,7 @@ public class Pattern {
         System.out.println();
         System.out.println("Pattern 9 : Printing  ");
              /*
-             Pattern 9  up to this
+             Pattern 9
              -----*****
              ----*****
              ---*****
@@ -187,8 +187,109 @@ public class Pattern {
         }
 
 
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 10 : Printing  ");
+             /*
+             Pattern 10
+             -----*
+             ----***
+             ---******
+             --********
+             -**********
+             */
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=5-i+1; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 2*i-1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
 
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 11 : Printing  ");
+             /*
+             Pattern 11
+             -**********
+             --********
+             ---******
+             ----***
+             -----*
+
+             */
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=i; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 11-2*i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 12 : Printing  ");
+             /*
+             Pattern 12
+             -**********
+             --********
+             ---******
+             ----***
+             -----*
+
+             */
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=i; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 11-(2*i); j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Pattern 13 : Printing  ");
+             /*
+             Pattern 13
+             -----*****
+             -----*   *
+             -----*   *
+             -----*   *
+             -----*****
+
+             */
+        //int i, j, k;
+        for (int i = 1; i <= 5; i++) {
+
+            for(int k=1; k<=5; k++){
+                System.out.print(" ");
+            }
+
+            for (int j = 1; j <= 5; j++) {
+
+                if(i==1 || i==5 ||  j==1 || j==5){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
 
         }  // main
     }
