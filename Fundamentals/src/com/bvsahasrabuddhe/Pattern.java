@@ -6,6 +6,5 @@ public class Pattern {
         for(int i=1; i<=5; i++){
               System.out.print("*");
            }
-
     }
 }
