@@ -38,8 +38,9 @@ public class EvenOdd {
                 System.out.println("EVEN");
             }
 
-            else
+            else {
                 System.out.println("ODD");
+            }
         }
 
 
