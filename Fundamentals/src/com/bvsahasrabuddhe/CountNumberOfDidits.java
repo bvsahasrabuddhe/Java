@@ -1,7 +1,7 @@
 package com.bvsahasrabuddhe;
 
 import java.util.Scanner;
-
+// second time commit
 public class CountNumberOfDidits {
     static int countDidits(int n){
         int count = 0;
