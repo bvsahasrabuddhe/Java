@@ -2,6 +2,7 @@ package com.bvsahasrabuddhe;
 
 import java.util.Scanner;
 
+// Program to check power of two or not
 public class PowerOf2 {
         static boolean powerOf2(int n){
             if(n==0){
