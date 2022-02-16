@@ -17,6 +17,7 @@ public class ResultantArray {
             resultant = totalMultipliation / ar[i];
             System.out.print(resultant + " ");
         }
+
     }
 }
 /*
