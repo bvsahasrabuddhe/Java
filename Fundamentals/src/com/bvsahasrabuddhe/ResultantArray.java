@@ -10,13 +10,8 @@ public class ResultantArray {
         int totalMultipliation = 1;
         for (int i=0; i< ar.length; i++){
             ar[i] = scan.nextInt();
-
-        }
-        for (int i=0; i< ar.length; i++){
-
             totalMultipliation = totalMultipliation * ar[i];
         }
-
         int resultant = 1;
         for (int i=0; i< ar.length; i++){
             resultant = totalMultipliation / ar[i];
